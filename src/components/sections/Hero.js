@@ -61,45 +61,24 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+            The super quick and easy way to take  <span className="text-color-primary">payments.</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Don't waste your time trying to code up payments implementations. Sign up, create & take payments with the quickness. Leave the payments to us.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="#">
+                    Sign Up!
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
-                    </Button>
+                    </Button> */}
                 </ButtonGroup>
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
       </div>
     </section>
