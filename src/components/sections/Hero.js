@@ -1,8 +1,8 @@
-import React from 'react';
-import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
+import ButtonGroup from '../elements/ButtonGroup';
+import React from 'react';
+import { SectionProps } from '../../utils/SectionProps';
+import classNames from 'classnames';
 // import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
 
@@ -69,9 +69,11 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#">
-                    Sign Up!
+
+                  <Button tag="a" color="primary" wideMobile href="https://hhrapjfzykb.typeform.com/to/Ng9iRbMf">
+                    Claim Your Username!
                     </Button>
+
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                     </Button> */}

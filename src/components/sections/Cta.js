@@ -1,8 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
+import Button from '../elements/Button';
+import ButtonGroup from '../elements/ButtonGroup';
 import Input from '../elements/Input';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { SectionProps } from '../../utils/SectionProps';
+import classNames from 'classnames';
 
 const propTypes = {
   ...SectionProps.types,
@@ -57,11 +59,17 @@ const Cta = ({
             </h3>
           </div>
           <div className="cta-action">
-            <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
-              <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
-              </svg>
-            </Input>
+            <ButtonGroup>
+                  <Button color="#000" hasBgColor={false} tag="a" color="light" wideMobile href="https://hhrapjfzykb.typeform.com/to/Ng9iRbMf">
+                    Claim Your Username!
+                    </Button>
+
+                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                    View on Github
+                    </Button> */}
+                </ButtonGroup>
+            {/* <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
+            </Input> */}
           </div>
         </div>
       </div>

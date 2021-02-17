@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import Logo from './partials/Logo';
 import FooterSocial from './partials/FooterSocial';
+import Logo from './partials/Logo';
+import PropTypes from 'prop-types';
+import React from 'react';
+import classNames from 'classnames';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -44,7 +44,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">A Waterwhipped Labs Product. All right reserved</div>
+            <div className="footer-copyright">A Waterwhip Labs Product. All right reserved</div>
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import React, { useEffect, useRef, useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -120,7 +121,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <a href="https://hhrapjfzykb.typeform.com/to/Ng9iRbMf" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Join Waiting List</a>
                       </li>
                     </ul>}
                 </div>
